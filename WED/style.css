@@ -1,0 +1,54 @@
+.container{
+    max-width: 1440px;
+}
+.text-center{
+    text-align: center;
+}
+.bg-green{
+    background-color: #50c7c7;
+}
+.bg-silver{
+    background-color: #D3D3D3;
+}
+.bg-red{
+    background-color: #E00000;
+}
+.text-while{
+    color: #fff
+}
+.no-underline{
+    text-decoration: none;
+}
+.list-unstyle{
+    list-style: none;
+}.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.mx-4{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.hover\:bg-red:hover{
+    background-color:#E00000;
+}
+.grid{
+    display: grid;
+}
+.grid-cols-3{
+    grid-template-columns: 1fr 1fr 1fr;;
+}
+.border{
+    border: 1px solid silver;
+}
+.gg-4{
+    grid-gap: 32px;
+}
+.block{
+    display: block;
+}

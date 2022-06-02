@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Static Template</title>
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <div class="max-w-7xl mx-auto">
+        <div class="flex justify-between items-center">
+            <div class="logo">
+                <img src="images/Logo.png" alt="">
+            </div>
+            <ul class="flex items-center">
+              <li><a href="" class="hover:text-red-500 px-8">Home</a></li>
+              <li><a href="" class="hover:text-red-500 px-8">About Us</a></li>
+              <li><a href="" class="hover:text-red-500 px-8">Contact Us</a></li>
+            </ul>
+            <div class="flex">
+                <img src="images/Icon/Cart.svg" alt="" class="px-5">
+                <a href="" class="px-5 mx-4 border border-red-500 rounded-lg text-red-600">Sign in</a>
+                <a href="" class="px-5 mx-4 border bg-red-500 rounded-lg text-white">Sign up</a>
+            </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner">
+      <div class="max-w-7xl mx-auto px-5">
+        <div class="grid grid-cols-2 gap-8">
+          <div class="">
+            <span class="text-red-500 bg-red-100 py-3 px-12 my-6 font-bold rounded text-lg">Quality Food</span>
+            <h2>Fastest <span>Delivery</span> & Easy <span>Pickup</span></h2>
+            <p>Best cooks and best delivery guys all at your service. Hot tasty food will reach you in 60 minutes.</p>
+            <form action="">
+              <input type="text" placeholder="Enter your delivery location">
+              <button>Discover</button>
+            </form>
+          </div>
+          <div class="banner-column">
+            image
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End .banner-->
+    <section class="feature-product">
+      <div class="max-w-7xl mx-auto">
+          <div class="feature-product-heading mb-5">
+            <h2>Our Popular Dishes</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </p>
+          </div>
+          <div class="grid grid-cols-3 gap-8">
+              <div class="feature-product-item">
+                  <div class="feature-product-image">
+                      <a href="">
+                          <img src="" alt="">
+                        </a>
+                  </div>
+                  <div class="feature-product-content py-5">
+                      <h3 class="mb-4"><a href="" class="text-red-500">Big and Juicy Wagyu Beef Cheeseburger</a></h3>
+                      <div class="flex">
+                          <span>30 Minutes</span>
+                          <span>Snack</span>
+                      </div>
+                  </div>
+              </div><!--End .feature-product-item-->
+          </div>
+      </div>
+    </section>
+    <!--End .feature-product-->
+    <section class="categories">
+      <div class="max-w-7xl mx-auto">
+          <div class="categories-heading flex justify-between">
+            <h2>Categories</h2>
+            <a href="">View all categories</a>
+          </div>
+          <div class="grid grid-cols-6 gap-8">
+            <div class="categories-item text-center">
+                <a href="">
+                  <img src="" alt="">
+                </a>
+                <h3><a href="">Breakfast</a></h3>
+            </div><!--End .categories-item-->
+          </div>
+      </div>
+    </section><!--End .categories-->
+    <section class="contact-us">
+      <div class="max-w-7xl mx-auto">
+        <div class="contact-us-heading">
+          <h2>Contact us</h2>
+        </div>
+        <form action="">
+          <div class="grid grid-cols-2 gap-8">
+            <div class="contact-us-item">
+              <label for="name" class="block uppercase mb-2 text-gray-400">Name</label>
+              <input type="text" id="name" class="block p-3 border w-full" placeholder="Name">
+            </div><!--End .contact-us-item-->
+            <div class="contact-us-item">
+              <label for="">emAIL aDDRESS</label>
+              <input type="text">
+            </div><!--End .contact-us-item-->
+            <div class="contact-us-item">
+              <label for="">Subject</label>
+              <input type="text">
+            </div><!--End .contact-us-item-->
+            <div class="contact-us-item">
+              <label for="">ENquiry type</label>
+              <select name="" id="">
+                <option value="">Advertising</option>
+              </select>
+            </div><!--End .contact-us-item-->
+            <div class="contact-us-item col-span-2">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="border w-full"></textarea>
+            </div><!--End .contact-us-item-->
+          </div>
+          <div class="text-center"><button>Submit</button></div>
+        </form>
+      </div>
+    </section>
+    <!--End .contact-us-->
+    <footer class="contact-us">
+      <div class="max-w-7xl mx-auto">
+        <div class="flex justify-between items-center">
+          <div>logo</div>
+          <ul>
+            <li><a href="">menu 1</a></li>
+            <li><a href="">menu 2</a></li>
+            <li><a href="">menu 3</a></li>
+            <li><a href="">menu 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--End .contact-us-->
+  </body>
+</html>
